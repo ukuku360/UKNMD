@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import yoonhoSwissImage from '../../assets/images/yoonho_swiss.jpeg';
 
 const About = () => {
   const skills = [
@@ -59,7 +60,7 @@ const About = () => {
           >
             <div className="aspect-square rounded-2xl overflow-hidden bg-indigo-100 dark:bg-indigo-900/30 relative">
               <img 
-                src="/images/yoonho_swiss.jpeg" 
+                src={yoonhoSwissImage} 
                 alt="Yoonho's profile picture" 
                 className="w-full h-full object-cover"
               />
