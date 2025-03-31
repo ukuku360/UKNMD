@@ -55,10 +55,15 @@ const Hero = () => {
             transition={{ duration: 0.8 }}
           >
             <div className="relative w-full aspect-square rounded-2xl overflow-hidden bg-indigo-100 dark:bg-indigo-900/30">
-              {/* Replace with your own image */}
-              <div className="absolute inset-0 flex items-center justify-center text-xl text-gray-500 dark:text-gray-400">
-                Your Image Here
-              </div>
+              <img 
+                src="/assets/images/yoonho_portrait.jpeg" 
+                alt="Yoonho's portrait" 
+                className="w-full h-full object-cover"
+                onError={(e) => {
+                  console.error('Image failed to load', e);
+                  e.target.style.display = 'none';
+                }}
+              />
             </div>
           </motion.div>
         </div>
