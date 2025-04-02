@@ -60,7 +60,7 @@ const About = () => {
           >
             <div className="aspect-square rounded-2xl overflow-hidden bg-indigo-100 dark:bg-indigo-900/30 relative">
               <img 
-                src="/images/yoonho_swiss.jpeg" 
+                src={`${process.env.PUBLIC_URL}/assets/yoonho_swiss.jpeg`} 
                 alt="Yoonho in Switzerland" 
                 className="w-full h-full object-cover"
               />
