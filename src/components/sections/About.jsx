@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import yoonhoSwissImage from '../../assets/images/yoonho_swiss.jpeg';
+// Images in public folder are referenced from the root
 
 const About = () => {
   const skills = [
@@ -60,7 +60,7 @@ const About = () => {
           >
             <div className="aspect-square rounded-2xl overflow-hidden bg-indigo-100 dark:bg-indigo-900/30 relative">
               <img 
-                src={yoonhoSwissImage} 
+                src="/images/yoonho_swiss.jpeg" 
                 alt="Yoonho in Switzerland" 
                 className="w-full h-full object-cover"
               />

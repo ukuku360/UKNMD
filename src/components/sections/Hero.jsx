@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import SocialLinks from '../shared/SocialLinks';
-import yoonhoPortraitImage from '../../assets/images/yoonho_swiss.jpeg';
+// Images in public folder are referenced from the root
 
 const Hero = () => {
   return (
@@ -57,7 +57,7 @@ const Hero = () => {
           >
             <div className="relative w-full aspect-square rounded-2xl overflow-hidden bg-indigo-100 dark:bg-indigo-900/30">
               <img 
-                src={yoonhoPortraitImage} 
+                src="/images/yoonho_swiss.jpeg" 
                 alt="Yoonho's portrait" 
                 className="w-full h-full object-cover"
               />
