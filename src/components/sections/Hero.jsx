@@ -57,7 +57,7 @@ const Hero = () => {
           >
             <div className="relative w-full aspect-square rounded-2xl overflow-hidden bg-indigo-100 dark:bg-indigo-900/30">
               <img 
-                src="https://uknmd.netlify.app/uploads/yoonho.jpg" 
+                src="/uploads/yoonho.jpg" 
                 alt="Yoonho's portrait" 
                 className="w-full h-full object-cover"
               />

@@ -60,7 +60,7 @@ const About = () => {
           >
             <div className="aspect-square rounded-2xl overflow-hidden bg-indigo-100 dark:bg-indigo-900/30 relative">
               <img 
-                src="https://uknmd.netlify.app/uploads/yoonho_copy.jpg" 
+                src="/uploads/yoonho_copy.jpg" 
                 alt="Yoonho in Switzerland" 
                 className="w-full h-full object-cover"
               />
