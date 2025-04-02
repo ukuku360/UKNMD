@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-// Static image path from public folder
+// Import image directly
+// We'll use the PUBLIC_URL environment variable
 
 const About = () => {
   const skills = [
@@ -60,7 +61,7 @@ const About = () => {
           >
             <div className="aspect-square rounded-2xl overflow-hidden bg-indigo-100 dark:bg-indigo-900/30 relative">
               <img 
-                src="/uploads/yoonho_copy.jpg" 
+                src="https://raw.githubusercontent.com/ukuku360/UKNMD/main/public/uploads/yoonho_copy.jpg" 
                 alt="Yoonho in Switzerland" 
                 className="w-full h-full object-cover"
               />

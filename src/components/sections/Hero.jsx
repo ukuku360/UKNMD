@@ -1,7 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import SocialLinks from '../shared/SocialLinks';
-// Static image path from public folder
+// Import image directly
+// We'll use the PUBLIC_URL environment variable
 
 const Hero = () => {
   return (
@@ -57,7 +58,7 @@ const Hero = () => {
           >
             <div className="relative w-full aspect-square rounded-2xl overflow-hidden bg-indigo-100 dark:bg-indigo-900/30">
               <img 
-                src="/uploads/yoonho.jpg" 
+                src="https://raw.githubusercontent.com/ukuku360/UKNMD/main/public/uploads/yoonho.jpg" 
                 alt="Yoonho's portrait" 
                 className="w-full h-full object-cover"
               />
