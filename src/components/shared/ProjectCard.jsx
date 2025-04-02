@@ -19,7 +19,7 @@ const ProjectCard = ({ project }) => {
           {image ? (
             <img
               src={image}
-              alt={title}
+              alt={`${title} project thumbnail`}
               className="w-full h-full object-cover"
             />
           ) : (

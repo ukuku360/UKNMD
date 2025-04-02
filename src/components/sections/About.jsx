@@ -61,7 +61,7 @@ const About = () => {
             <div className="aspect-square rounded-2xl overflow-hidden bg-indigo-100 dark:bg-indigo-900/30 relative">
               <img 
                 src={yoonhoSwissImage} 
-                alt="Yoonho's profile picture" 
+                alt="Yoonho in Switzerland" 
                 className="w-full h-full object-cover"
               />
             </div>
@@ -109,6 +109,8 @@ const About = () => {
                   fill="none" 
                   viewBox="0 0 24 24" 
                   stroke="currentColor"
+                  aria-hidden="true"
+                  role="img"
                 >
                   <path 
                     strokeLinecap="round" 
@@ -127,6 +129,8 @@ const About = () => {
                   fill="none" 
                   viewBox="0 0 24 24" 
                   stroke="currentColor"
+                  aria-hidden="true"
+                  role="img"
                 >
                   <path 
                     strokeLinecap="round" 
@@ -145,6 +149,8 @@ const About = () => {
                   fill="none" 
                   viewBox="0 0 24 24" 
                   stroke="currentColor"
+                  aria-hidden="true"
+                  role="img"
                 >
                   <path 
                     strokeLinecap="round" 
@@ -163,6 +169,8 @@ const About = () => {
                   fill="none" 
                   viewBox="0 0 24 24" 
                   stroke="currentColor"
+                  aria-hidden="true"
+                  role="img"
                 >
                   <path 
                     strokeLinecap="round" 
@@ -185,6 +193,8 @@ const About = () => {
                 className="h-5 w-5 ml-2" 
                 viewBox="0 0 20 20" 
                 fill="currentColor"
+                aria-hidden="true"
+                role="img"
               >
                 <path 
                   fillRule="evenodd" 

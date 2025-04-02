@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import SocialLinks from '../shared/SocialLinks';
+import yoonhoPortraitImage from '../../assets/images/yoonho_swiss.jpeg';
 
 const Hero = () => {
   return (
@@ -56,13 +57,9 @@ const Hero = () => {
           >
             <div className="relative w-full aspect-square rounded-2xl overflow-hidden bg-indigo-100 dark:bg-indigo-900/30">
               <img 
-                src="/assets/images/yoonho_portrait.jpeg" 
+                src={yoonhoPortraitImage} 
                 alt="Yoonho's portrait" 
                 className="w-full h-full object-cover"
-                onError={(e) => {
-                  console.error('Image failed to load', e);
-                  e.target.style.display = 'none';
-                }}
               />
             </div>
           </motion.div>

@@ -105,7 +105,7 @@ const ProjectDetail = () => {
             {project.image ? (
               <img
                 src={project.image}
-                alt={project.title}
+                alt={`${project.title} project screenshot`}
                 className="w-full h-full object-cover"
               />
             ) : (
